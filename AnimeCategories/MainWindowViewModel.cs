@@ -28,13 +28,14 @@ namespace AnimeCategories
             set { SetValue(() => this.HardMode, value); }
         }
 
-        private AnimeCategoriesManager manager = new AnimeCategoriesManager();
+        private AnimeCategoriesManager manager;
 
         public ObservableCollection<CategoryBucket> Buckets { get; set; } = new ObservableCollection<CategoryBucket>();
 
         public MainWindowViewModel()
         {
             HardMode = false;
+            manager = new AnimeCategoriesManager(HardMode);
             AnimeCount = Convert.ToInt32(ConfigurationManager.AppSettings["ANIME_COUNT"]);
             TagCount = Convert.ToInt32(ConfigurationManager.AppSettings["TAG_COUNT"]);
         }
@@ -130,6 +131,7 @@ namespace AnimeCategories
 
         private void GenerateNewGame()
         {
+            manager.ReloadAnime(HardMode);
             var tags = manager.GetRandomTags(TagCount, AnimeCount);
             var animes = manager.GetRandomAnime(tags, TagCount, AnimeCount);
 

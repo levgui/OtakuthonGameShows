@@ -6,9 +6,20 @@ namespace BusinessLayer
     public class AnimeCategoriesManager
     {
         private List<Anime> allAnimes = new List<Anime>();
-        public AnimeCategoriesManager()
+        private bool previousDifficulty = false;
+        public AnimeCategoriesManager(bool isHardMode)
         {
-            allAnimes = AnimeCategoriesDataLayer.GetAllAnimes();
+            allAnimes = AnimeCategoriesDataLayer.GetAllAnimes(isHardMode);
+        }
+
+        public void ReloadAnime(bool isHardMode)
+        {
+            if (isHardMode != previousDifficulty)
+            {
+                previousDifficulty = isHardMode;
+
+                allAnimes = AnimeCategoriesDataLayer.GetAllAnimes(isHardMode);
+            }
         }
 
         public List<string> GetRandomTags(int tagCount, int animeCount)
@@ -126,9 +137,6 @@ namespace BusinessLayer
 
         private List<string> GetAllTags()
         {
-            //for all json weird tags
-            //return allAnimes.SelectMany(x => x.Categories).Select(x => x.ToUpper()).Distinct().ToList();
-
             //MAL tags
             var tags = new List<string>()
             {

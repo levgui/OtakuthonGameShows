@@ -41,6 +41,7 @@
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
@@ -56,12 +57,14 @@
                     <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
                 <TextBlock Grid.Row="0" Grid.Column="0" Text="Number of Anime:" FontSize="16" VerticalAlignment="Center"/>
-                <mah:NumericUpDown Grid.Row="0" Grid.Column="1" Value="{Binding AnimeCount}" Margin="5"/>
+                <mah:NumericUpDown Grid.Row="0" Grid.Column="1" Value="{Binding AnimeCount}" Margin="3"/>
                 <TextBlock Grid.Row="1" Grid.Column="0" Text="Number of Categories:" FontSize="16" VerticalAlignment="Center"/>
-                <mah:NumericUpDown Grid.Row="1" Grid.Column="1" Value="{Binding TagCount}" Margin="5"/>
+                <mah:NumericUpDown Grid.Row="1" Grid.Column="1" Value="{Binding TagCount}" Margin="3"/>
             </Grid>
-            <Button Grid.Column="3" Content="Reset" Click="Reset_Click" FontSize="40" Margin="5"/>
-            <Button Grid.Column="4" Content="Solve" Click="Solve_Click" FontSize="40" Margin="5"/>
+            <CheckBox Grid.Column ="3" IsChecked="{Binding HardMode}" Content="Hard Mode"/>
+            <Button Grid.Column="4" Content="Reset" Click="Reset_Click" FontSize="40" Margin="5"/>
+            <Button Grid.Column="5" Content="Solve" Click="Solve_Click" FontSize="40" Margin="5"/>
+
         </Grid>
     </Grid>
 </mah:MetroWindow>

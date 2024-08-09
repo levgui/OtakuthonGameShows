@@ -31,3 +31,4 @@ C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows\BusinessLayer\bin\Debug\ne
 C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows\BusinessLayer\bin\Debug\net8.0\AnimeDeserializer.exe
 C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows\BusinessLayer\bin\Debug\net8.0\AnimeDeserializer.dll
 C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows\BusinessLayer\bin\Debug\net8.0\AnimeDeserializer.pdb
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows\BusinessLayer\obj\Debug\net8.0\BusinessLayer.sourcelink.json

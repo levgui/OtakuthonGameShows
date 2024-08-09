@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{F7EEC15F-E06A-4DAF-B42B-7F367F9C5C5C}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\animecategoriesmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{88628424-69AE-46AA-939D-A1763D5D765F}|DataLayer\\DataLayer.csproj|c:\\donn\u00E9es\\otakuthon\\game shows\\otakuthon game shows\\datalayer\\animecategories\\animecategoriesdatalayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88628424-69AE-46AA-939D-A1763D5D765F}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\animecategories\\animecategoriesdatalayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1601BF23-0110-4CA1-BD23-AA075A0185F6}|AnimeCategories\\AnimeCategories.csproj|c:\\donn\u00E9es\\otakuthon\\game shows\\otakuthon game shows\\animecategories\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1601BF23-0110-4CA1-BD23-AA075A0185F6}|AnimeCategories\\AnimeCategories.csproj|solutionrelative:animecategories\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1601BF23-0110-4CA1-BD23-AA075A0185F6}|AnimeCategories\\AnimeCategories.csproj|c:\\donn\u00E9es\\otakuthon\\game shows\\otakuthon game shows\\animecategories\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1601BF23-0110-4CA1-BD23-AA075A0185F6}|AnimeCategories\\AnimeCategories.csproj|solutionrelative:animecategories\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88628424-69AE-46AA-939D-A1763D5D765F}|DataLayer\\DataLayer.csproj|c:\\donn\u00E9es\\otakuthon\\game shows\\otakuthon game shows\\datalayer\\animecategories\\animecategoriesdatalayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88628424-69AE-46AA-939D-A1763D5D765F}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\animecategories\\animecategoriesdatalayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1601BF23-0110-4CA1-BD23-AA075A0185F6}|AnimeCategories\\AnimeCategories.csproj|c:\\donn\u00E9es\\otakuthon\\game shows\\otakuthon game shows\\animecategories\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -81,15 +81,16 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\DONN\u00C9ES\\Otakuthon\\Game Shows\\Otakuthon Game Shows\\AnimeCategories\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "AnimeCategories\\MainWindow.xaml.cs",
               "ToolTip": "C:\\DONN\u00C9ES\\Otakuthon\\Game Shows\\Otakuthon Game Shows\\AnimeCategories\\MainWindow.xaml.cs",
               "RelativeToolTip": "AnimeCategories\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAEUAAAAAAAAAAIA9wFsAAAAgAAAA",
+              "ViewState": "AQIAAEYAAAAAAAAAAAApwF0AAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-09T03:31:21.686Z"
+              "WhenOpened": "2024-08-09T03:31:21.686Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -100,19 +101,21 @@
               "ToolTip": "C:\\DONN\u00C9ES\\Otakuthon\\Game Shows\\Otakuthon Game Shows\\AnimeCategories\\MainWindow.xaml",
               "RelativeToolTip": "AnimeCategories\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-08-09T03:31:18.661Z"
+              "WhenOpened": "2024-08-09T03:31:18.661Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "MainWindowViewModel.cs",
               "DocumentMoniker": "C:\\DONN\u00C9ES\\Otakuthon\\Game Shows\\Otakuthon Game Shows\\AnimeCategories\\MainWindowViewModel.cs",
               "RelativeDocumentMoniker": "AnimeCategories\\MainWindowViewModel.cs",
               "ToolTip": "C:\\DONN\u00C9ES\\Otakuthon\\Game Shows\\Otakuthon Game Shows\\AnimeCategories\\MainWindowViewModel.cs",
               "RelativeToolTip": "AnimeCategories\\MainWindowViewModel.cs",
-              "ViewState": "AQIAAGoAAAAAAAAAAIAwwIQAAAAsAAAA",
+              "ViewState": "AQIAAGcAAAAAAAAAAAAvwIcAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-09T00:46:16.783Z"
+              "WhenOpened": "2024-08-09T00:46:16.783Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -160,7 +163,8 @@
               "RelativeToolTip": "AnimeDeserializer\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T23:49:37.27Z"
+              "WhenOpened": "2024-08-08T23:49:37.27Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -205,7 +209,7 @@
               "RelativeDocumentMoniker": "BusinessLayer\\AnimeCategoriesManager.cs",
               "ToolTip": "C:\\DONN\u00C9ES\\Otakuthon\\Game Shows\\Otakuthon Game Shows\\BusinessLayer\\AnimeCategoriesManager.cs",
               "RelativeToolTip": "BusinessLayer\\AnimeCategoriesManager.cs",
-              "ViewState": "AQIAAGEAAAAAAAAAAIA5wHkAAAAxAAAA",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAcwCoAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-09T00:34:07.9Z",
               "EditorCaption": ""
@@ -224,15 +228,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "AnimeCategoriesDataLayer.cs",
               "DocumentMoniker": "C:\\DONN\u00C9ES\\Otakuthon\\Game Shows\\Otakuthon Game Shows\\DataLayer\\AnimeCategories\\AnimeCategoriesDataLayer.cs",
               "RelativeDocumentMoniker": "DataLayer\\AnimeCategories\\AnimeCategoriesDataLayer.cs",
               "ToolTip": "C:\\DONN\u00C9ES\\Otakuthon\\Game Shows\\Otakuthon Game Shows\\DataLayer\\AnimeCategories\\AnimeCategoriesDataLayer.cs",
               "RelativeToolTip": "DataLayer\\AnimeCategories\\AnimeCategoriesDataLayer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAyAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-09T00:15:34.062Z"
+              "WhenOpened": "2024-08-09T00:15:34.062Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

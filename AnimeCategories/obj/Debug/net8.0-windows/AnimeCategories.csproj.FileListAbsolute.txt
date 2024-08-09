@@ -105,3 +105,4 @@ C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows\AnimeCategories\bin\Debug\
 C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows\AnimeCategories\bin\Debug\net8.0-windows\AnimeDeserializer.dll
 C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows\AnimeCategories\bin\Debug\net8.0-windows\AnimeDeserializer.pdb
 C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows\AnimeCategories\bin\Debug\net8.0-windows\Data\data.json
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows\AnimeCategories\obj\Debug\net8.0-windows\AnimeCategories.sourcelink.json
