@@ -44,10 +44,10 @@ namespace AnimeCategories
         public MainWindowViewModel()
         {
             HardMode = false;
-            TopAnimeCount = 5000;
             manager = new AnimeCategoriesManager(HardMode, TopAnimeCount);
             AnimeCount = Convert.ToInt32(ConfigurationManager.AppSettings["ANIME_COUNT"]);
             TagCount = Convert.ToInt32(ConfigurationManager.AppSettings["TAG_COUNT"]);
+            TopAnimeCount = Convert.ToInt32(ConfigurationManager.AppSettings["TOP_ANIME_COUNT"]);
         }
 
         public string CheckResults()

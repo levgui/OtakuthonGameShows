@@ -72,7 +72,13 @@ namespace AnimeCategories
             var vm = DataContext as MainWindowViewModel;
             if (vm != null)
             {
-                var result = await this.ShowMessageAsync("Reset", $"This will generate a completely new game.{Environment.NewLine}Number of Anime: {vm.AnimeCount}{Environment.NewLine}Number of Categories: {vm.TagCount}", MessageDialogStyle.AffirmativeAndNegative, dialogSettings);
+                var message = $"This will generate a completely new game.{Environment.NewLine}Number of Anime: {vm.AnimeCount}{Environment.NewLine}Number of Categories: {vm.TagCount}{Environment.NewLine}Top Anime: {vm.TopAnimeCount}";
+                if (vm.HardMode)
+                {
+                    message = $"This will generate a completely new game.{Environment.NewLine}Number of Anime: {vm.AnimeCount}{Environment.NewLine}Number of Categories: {vm.TagCount}";
+                }
+
+                var result = await this.ShowMessageAsync("Reset", message, MessageDialogStyle.AffirmativeAndNegative, dialogSettings);
 
                 if (result == MessageDialogResult.Affirmative)
                 {
