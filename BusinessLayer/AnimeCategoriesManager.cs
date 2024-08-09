@@ -1,25 +1,31 @@
 ﻿using Classes;
 using DataLayer.AnimeCategories;
+using System.Xml.Linq;
 
 namespace BusinessLayer
 {
     public class AnimeCategoriesManager
     {
-        private List<Anime> allAnimes = new List<Anime>();
+        private IEnumerable<Anime> allAnimes = new List<Anime>();
+        private IEnumerable<Anime> filteredAnimes = new List<Anime>();
         private bool previousDifficulty = false;
-        public AnimeCategoriesManager(bool isHardMode)
+        public AnimeCategoriesManager(bool isHardMode, int topAnimeCount)
         {
-            allAnimes = AnimeCategoriesDataLayer.GetAllAnimes(isHardMode);
+            allAnimes = AnimeCategoriesDataLayer.GetAllAnimes(isHardMode, topAnimeCount);
         }
 
-        public void ReloadAnime(bool isHardMode)
+        public void ReloadAnime(bool isHardMode, int topAnimeCount)
         {
             if (isHardMode != previousDifficulty)
             {
                 previousDifficulty = isHardMode;
 
-                allAnimes = AnimeCategoriesDataLayer.GetAllAnimes(isHardMode);
+                allAnimes = AnimeCategoriesDataLayer.GetAllAnimes(isHardMode, topAnimeCount);
             }
+
+            //Apply filters...
+            filteredAnimes = allAnimes.Where(x => x.Type == "TV" || x.Type == "MOVIE");
+            filteredAnimes = filteredAnimes.OrderByDescending(x => x.Score).Take(topAnimeCount);
         }
 
         public List<string> GetRandomTags(int tagCount, int animeCount)
@@ -42,7 +48,7 @@ namespace BusinessLayer
 
         public List<Anime> GetRandomAnime(List<string> tags, int tagCount, int animeCount)
         {
-            var possibleAnime = allAnimes.Where(x => tags.Intersect(x.Categories).Any()).ToList();
+            var possibleAnime = filteredAnimes.Where(x => tags.Intersect(x.Categories).Any()).ToList();
             var selectedAnimes = new List<Anime>();
 
             do
@@ -65,13 +71,16 @@ namespace BusinessLayer
                     {
                         if (!selectedAnimes.Any(x => x.Categories.Contains(tag)))
                         {
-                            var tagPossibleAnime = allAnimes.Where(x => x.Categories.Contains(tag)).ToList();
+                            var tagPossibleAnime = filteredAnimes.Where(x => x.Categories.Contains(tag)).ToList();
 
-                            Random rnd = new Random();
-                            var animeToAdd = tagPossibleAnime[rnd.Next(tagPossibleAnime.Count)];
-                            if (!selectedAnimes.Any(x => x.Title.Equals(animeToAdd.Title)))
+                            if (tagPossibleAnime.Any())
                             {
-                                selectedAnimes.Add(animeToAdd);
+                                Random rnd = new Random();
+                                var animeToAdd = tagPossibleAnime[rnd.Next(tagPossibleAnime.Count)];
+                                if (!selectedAnimes.Any(x => x.Title.Equals(animeToAdd.Title)))
+                                {
+                                    selectedAnimes.Add(animeToAdd);
+                                }
                             }
                         }
                     } while (!selectedAnimes.Any(x => x.Categories.Contains(tag)));
@@ -109,15 +118,26 @@ namespace BusinessLayer
         private bool ValidateTags(List<string> tags, int animeCount)
         {
             //There needs to be enough different anime to match the tags
-            var possibleAnime = allAnimes.Where(x => tags.Any(x.Categories.Contains));
+            var possibleAnime = filteredAnimes.Where(x => tags.Any(x.Categories.Contains));
 
-            return possibleAnime.Count() >= animeCount;
+            //Don't keep tags that have no anime
+            var hasDeadTags = tags.Any(x => !filteredAnimes.Any(y => y.Categories.Contains(x)));
+
+            if (hasDeadTags)
+            {
+                foreach (var tag in tags)
+                {
+                    var count = filteredAnimes.Count(x => x.Categories.Contains(tag));
+                }
+            }
+
+            return possibleAnime.Count() >= animeCount && !hasDeadTags;
 
         }
 
         private List<string> GenerateTags(int count)
         {
-            var allTags = GetAllTags();
+            var allTags = AnimeCategoriesDataLayer.GetAllTags();
 
             var selectedTags = new List<string>();
 
@@ -133,86 +153,6 @@ namespace BusinessLayer
             } while (selectedTags.Count < count);
 
             return selectedTags;
-        }
-
-        private List<string> GetAllTags()
-        {
-            //MAL tags
-            var tags = new List<string>()
-            {
-                "Action",
-                "Adventure",
-                //"Avant Garde",
-                //"Award Winning",
-                "Boys Love",
-                "Comedy",
-                "Drama",
-                "Fantasy",
-                "Girls Love",
-                "Gourmet",
-                "Horror",
-                "Mystery",
-                "Romance",
-                "Sci-Fi",
-                "Slice of Life",
-                "Sports",
-                "Supernatural",
-                "Suspense",
-                "Ecchi",
-                //"Erotica",
-                //"Hentai",
-                "Adult Cast",
-                "Anthropomorphic",
-                "CGDCT",
-                "Childcare",
-                //"Combat Sports",
-                "Crossdressing",
-                "Delinquents",
-                "Detective",
-                "Educational",
-                "Gag Humor",
-                "Gore",
-                "Harem",
-                "High Stakes Game",
-                "Historical",
-                "Idol",
-                "Isekai",
-                "Iyashikei",
-                "Love Polygon",
-                //"Magical Sex Shift",
-                "Mahou Shoujo",
-                "Martial Arts",
-                "Mecha",
-                "Medical",
-                "Military",
-                "Music",
-                "Mythology",
-                "Organized Crime",
-                "Otaku Culture",
-                "Parody",
-                "Performing Arts",
-                "Pets",
-                "Psychological",
-                "Racing",
-                "Reincarnation",
-                "Reverse Harem",
-                "Romantic Subtext",
-                "Samurai",
-                "School",
-                "Showbiz",
-                "Space",
-                "Strategy Game",
-                "Super Power",
-                "Survival",
-                "Team Sports",
-                "Time Travel",
-                "Vampire",
-                "Video Game",
-                "Visual Arts",
-                "Workplace"
-            };
-
-            return tags.Select(x => x.ToUpper()).ToList();
         }
     }
 }
