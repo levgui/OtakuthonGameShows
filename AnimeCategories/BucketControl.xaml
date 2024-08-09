@@ -1,0 +1,46 @@
+﻿<UserControl x:Class="AnimeCategories.BucketControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:AnimeCategories"
+             mc:Ignorable="d" 
+             BorderBrush="{DynamicResource MahApps.Brushes.Accent}" 
+             BorderThickness="2"
+             d:DesignHeight="800" d:DesignWidth="400">
+    <UserControl.Resources>
+        <Style x:Key="DragGrid" TargetType="Grid">
+            <EventSetter Event="MouseMove" Handler="Item_MouseMove"/>
+        </Style>
+
+        <Style x:Key="BucketStyle" TargetType="ItemsControl">
+            <Setter Property="ItemsPanel">
+                <Setter.Value>
+                    <ItemsPanelTemplate>
+                        <UniformGrid VerticalAlignment="Bottom" HorizontalAlignment="Center" Columns="2"/>
+                    </ItemsPanelTemplate>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="ItemTemplate">
+                <Setter.Value>
+                    <DataTemplate>
+                        <Grid MaxHeight="350" MaxWidth="200" Margin="0,0,0,10" ToolTip="{Binding DisplayTitle}" ToolTipService.InitialShowDelay="0" ToolTipService.BetweenShowDelay="0" Style="{StaticResource DragGrid}" Tag="{Binding Path=DataContext, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ItemsControl}}}">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="50" />
+                                <RowDefinition Height="*" />
+                            </Grid.RowDefinitions>
+                            <TextBlock Grid.Row="0" Text="{Binding DisplayTitle}" TextAlignment="Center" FontSize="16" TextWrapping="Wrap" Background="{DynamicResource MahApps.Brushes.Accent}" Foreground="{DynamicResource MahApps.Brushes.IdealForeground}" Margin="3,3,3,0"/>
+                            <Image Grid.Row="1" Source="{Binding Image}" Stretch="Fill" Margin="3"/>
+                        </Grid>
+                    </DataTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </UserControl.Resources>
+    
+    <DockPanel Grid.Column="1" DataContext="{Binding}">
+        <TextBlock DockPanel.Dock="Bottom" Text="{Binding Category}" TextWrapping="Wrap" TextAlignment="Center" Background="{DynamicResource MahApps.Brushes.Accent}" Foreground="{DynamicResource MahApps.Brushes.IdealForeground}" FontWeight="Bold" FontSize="40"/>
+        <ItemsControl Style="{StaticResource BucketStyle}" ItemsSource="{Binding AnimeInsideBucket}"/>
+    </DockPanel>
+    
+</UserControl>

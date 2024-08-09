@@ -1,0 +1,77 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\apothecary.jpg" />
+    <None Remove="Images\bleach.jpg" />
+    <None Remove="Images\clannad.jpg" />
+    <None Remove="Images\codegeass.jpg" />
+    <None Remove="Images\dangersinmyheart.jpg" />
+    <None Remove="Images\fma.jpg" />
+    <None Remove="Images\frieren.jpg" />
+    <None Remove="Images\fruitsbasket.jpg" />
+    <None Remove="Images\galactic.jpg" />
+    <None Remove="Images\gintama.jpg" />
+    <None Remove="Images\hunter.jpg" />
+    <None Remove="Images\jjk.jpg" />
+    <None Remove="Images\kaguya.jpg" />
+    <None Remove="Images\marchlion.jpg" />
+    <None Remove="Images\mob.jpg" />
+    <None Remove="Images\monster.jpg" />
+    <None Remove="Images\shingeki.jpg" />
+    <None Remove="Images\silentvoice.jpg" />
+    <None Remove="Images\steins.jpg" />
+    <None Remove="Images\vinland.jpg" />
+    <None Remove="Images\yourname.jpg" />
+    <None Remove="oshi_no_ko.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MahApps.Metro" Version="2.4.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BusinessLayer\BusinessLayer.csproj" />
+    <ProjectReference Include="..\Classes\Classes.csproj" />
+    <ProjectReference Include="..\DataLayer\DataLayer.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\apothecary.jpg" />
+    <Resource Include="Images\bleach.jpg" />
+    <Resource Include="Images\clannad.jpg" />
+    <Resource Include="Images\codegeass.jpg" />
+    <Resource Include="Images\dangersinmyheart.jpg" />
+    <Resource Include="Images\fma.jpg" />
+    <Resource Include="Images\frieren.jpg" />
+    <Resource Include="Images\fruitsbasket.jpg" />
+    <Resource Include="Images\galactic.jpg" />
+    <Resource Include="Images\gintama.jpg" />
+    <Resource Include="Images\hunter.jpg" />
+    <Resource Include="Images\jjk.jpg" />
+    <Resource Include="Images\kaguya.jpg" />
+    <Resource Include="Images\marchlion.jpg" />
+    <Resource Include="Images\mob.jpg" />
+    <Resource Include="Images\monster.jpg" />
+    <Resource Include="Images\oshinoko.jpg" />
+    <Resource Include="Images\shingeki.jpg" />
+    <Resource Include="Images\silentvoice.jpg" />
+    <Resource Include="Images\steins.jpg" />
+    <Resource Include="Images\vinland.jpg" />
+    <Resource Include="Images\yourname.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Data\data.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

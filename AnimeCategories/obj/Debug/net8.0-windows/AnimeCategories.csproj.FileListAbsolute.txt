@@ -1,0 +1,107 @@
+C:\DONNÉES\Otakuthon\Game Shows\AnimeCategories\AnimeCategories\bin\Debug\net8.0-windows\AnimeCategories.exe
+C:\DONNÉES\Otakuthon\Game Shows\AnimeCategories\AnimeCategories\bin\Debug\net8.0-windows\AnimeCategories.deps.json
+C:\DONNÉES\Otakuthon\Game Shows\AnimeCategories\AnimeCategories\bin\Debug\net8.0-windows\AnimeCategories.runtimeconfig.json
+C:\DONNÉES\Otakuthon\Game Shows\AnimeCategories\AnimeCategories\bin\Debug\net8.0-windows\AnimeCategories.dll
+C:\DONNÉES\Otakuthon\Game Shows\AnimeCategories\AnimeCategories\bin\Debug\net8.0-windows\AnimeCategories.pdb
+C:\DONNÉES\Otakuthon\Game Shows\AnimeCategories\AnimeCategories\bin\Debug\net8.0-windows\ControlzEx.dll
+C:\DONNÉES\Otakuthon\Game Shows\AnimeCategories\AnimeCategories\bin\Debug\net8.0-windows\MahApps.Metro.dll
+C:\DONNÉES\Otakuthon\Game Shows\AnimeCategories\AnimeCategories\bin\Debug\net8.0-windows\Microsoft.Xaml.Behaviors.dll
+C:\DONNÉES\Otakuthon\Game Shows\AnimeCategories\AnimeCategories\bin\Debug\net8.0-windows\de\MahApps.Metro.resources.dll
+C:\DONNÉES\Otakuthon\Game Shows\AnimeCategories\AnimeCategories\obj\Debug\net8.0-windows\AnimeCategories.csproj.AssemblyReference.cache
+C:\DONNÉES\Otakuthon\Game Shows\AnimeCategories\AnimeCategories\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\DONNÉES\Otakuthon\Game Shows\AnimeCategories\AnimeCategories\obj\Debug\net8.0-windows\App.g.cs
+C:\DONNÉES\Otakuthon\Game Shows\AnimeCategories\AnimeCategories\obj\Debug\net8.0-windows\AnimeCategories_MarkupCompile.cache
+C:\DONNÉES\Otakuthon\Game Shows\AnimeCategories\AnimeCategories\obj\Debug\net8.0-windows\AnimeCategories_MarkupCompile.lref
+C:\DONNÉES\Otakuthon\Game Shows\AnimeCategories\AnimeCategories\obj\Debug\net8.0-windows\App.baml
+C:\DONNÉES\Otakuthon\Game Shows\AnimeCategories\AnimeCategories\obj\Debug\net8.0-windows\MainWindow.baml
+C:\DONNÉES\Otakuthon\Game Shows\AnimeCategories\AnimeCategories\obj\Debug\net8.0-windows\AnimeCategories.g.resources
+C:\DONNÉES\Otakuthon\Game Shows\AnimeCategories\AnimeCategories\obj\Debug\net8.0-windows\AnimeCategories.GeneratedMSBuildEditorConfig.editorconfig
+C:\DONNÉES\Otakuthon\Game Shows\AnimeCategories\AnimeCategories\obj\Debug\net8.0-windows\AnimeCategories.AssemblyInfoInputs.cache
+C:\DONNÉES\Otakuthon\Game Shows\AnimeCategories\AnimeCategories\obj\Debug\net8.0-windows\AnimeCategories.AssemblyInfo.cs
+C:\DONNÉES\Otakuthon\Game Shows\AnimeCategories\AnimeCategories\obj\Debug\net8.0-windows\AnimeCategories.csproj.CoreCompileInputs.cache
+C:\DONNÉES\Otakuthon\Game Shows\AnimeCategories\AnimeCategories\obj\Debug\net8.0-windows\AnimeCat.D895F9ED.Up2Date
+C:\DONNÉES\Otakuthon\Game Shows\AnimeCategories\AnimeCategories\obj\Debug\net8.0-windows\AnimeCategories.dll
+C:\DONNÉES\Otakuthon\Game Shows\AnimeCategories\AnimeCategories\obj\Debug\net8.0-windows\refint\AnimeCategories.dll
+C:\DONNÉES\Otakuthon\Game Shows\AnimeCategories\AnimeCategories\obj\Debug\net8.0-windows\AnimeCategories.pdb
+C:\DONNÉES\Otakuthon\Game Shows\AnimeCategories\AnimeCategories\obj\Debug\net8.0-windows\AnimeCategories.genruntimeconfig.cache
+C:\DONNÉES\Otakuthon\Game Shows\AnimeCategories\AnimeCategories\obj\Debug\net8.0-windows\ref\AnimeCategories.dll
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows\AnimeCategories\bin\Debug\net8.0-windows\AnimeCategories.exe
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows\AnimeCategories\bin\Debug\net8.0-windows\AnimeCategories.deps.json
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows\AnimeCategories\bin\Debug\net8.0-windows\AnimeCategories.runtimeconfig.json
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows\AnimeCategories\bin\Debug\net8.0-windows\AnimeCategories.dll
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows\AnimeCategories\bin\Debug\net8.0-windows\AnimeCategories.pdb
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows\AnimeCategories\bin\Debug\net8.0-windows\ControlzEx.dll
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows\AnimeCategories\bin\Debug\net8.0-windows\MahApps.Metro.dll
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows\AnimeCategories\bin\Debug\net8.0-windows\Microsoft.Xaml.Behaviors.dll
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows\AnimeCategories\bin\Debug\net8.0-windows\de\MahApps.Metro.resources.dll
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows\AnimeCategories\obj\Debug\net8.0-windows\AnimeCategories.csproj.AssemblyReference.cache
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows\AnimeCategories\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows\AnimeCategories\obj\Debug\net8.0-windows\App.g.cs
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows\AnimeCategories\obj\Debug\net8.0-windows\AnimeCategories_MarkupCompile.cache
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows\AnimeCategories\obj\Debug\net8.0-windows\AnimeCategories_MarkupCompile.lref
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows\AnimeCategories\obj\Debug\net8.0-windows\App.baml
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows\AnimeCategories\obj\Debug\net8.0-windows\MainWindow.baml
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows\AnimeCategories\obj\Debug\net8.0-windows\AnimeCategories.g.resources
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows\AnimeCategories\obj\Debug\net8.0-windows\AnimeCategories.GeneratedMSBuildEditorConfig.editorconfig
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows\AnimeCategories\obj\Debug\net8.0-windows\AnimeCategories.AssemblyInfoInputs.cache
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows\AnimeCategories\obj\Debug\net8.0-windows\AnimeCategories.AssemblyInfo.cs
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows\AnimeCategories\obj\Debug\net8.0-windows\AnimeCategories.csproj.CoreCompileInputs.cache
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows\AnimeCategories\obj\Debug\net8.0-windows\AnimeCat.D895F9ED.Up2Date
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows\AnimeCategories\obj\Debug\net8.0-windows\AnimeCategories.dll
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows\AnimeCategories\obj\Debug\net8.0-windows\refint\AnimeCategories.dll
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows\AnimeCategories\obj\Debug\net8.0-windows\AnimeCategories.pdb
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows\AnimeCategories\obj\Debug\net8.0-windows\AnimeCategories.genruntimeconfig.cache
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows\AnimeCategories\obj\Debug\net8.0-windows\ref\AnimeCategories.dll
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows\AnimeCategories\bin\Debug\net8.0-windows\BusinessLayer.dll
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows\AnimeCategories\bin\Debug\net8.0-windows\Classes.dll
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows\AnimeCategories\bin\Debug\net8.0-windows\DataLayer.dll
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows\AnimeCategories\bin\Debug\net8.0-windows\BusinessLayer.pdb
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows\AnimeCategories\bin\Debug\net8.0-windows\Classes.pdb
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows\AnimeCategories\bin\Debug\net8.0-windows\DataLayer.pdb
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows\AnimeCategories\obj\Debug\net8.0-windows\BucketControl.g.cs
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows\AnimeCategories\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows\AnimeCategories\obj\Debug\net8.0-windows\BucketControl.baml
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows - Normal Drag Drop\AnimeCategories\bin\Debug\net8.0-windows\AnimeCategories.exe
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows - Normal Drag Drop\AnimeCategories\bin\Debug\net8.0-windows\AnimeCategories.deps.json
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows - Normal Drag Drop\AnimeCategories\bin\Debug\net8.0-windows\AnimeCategories.runtimeconfig.json
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows - Normal Drag Drop\AnimeCategories\bin\Debug\net8.0-windows\AnimeCategories.dll
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows - Normal Drag Drop\AnimeCategories\bin\Debug\net8.0-windows\AnimeCategories.pdb
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows - Normal Drag Drop\AnimeCategories\bin\Debug\net8.0-windows\ControlzEx.dll
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows - Normal Drag Drop\AnimeCategories\bin\Debug\net8.0-windows\MahApps.Metro.dll
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows - Normal Drag Drop\AnimeCategories\bin\Debug\net8.0-windows\Microsoft.Xaml.Behaviors.dll
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows - Normal Drag Drop\AnimeCategories\bin\Debug\net8.0-windows\de\MahApps.Metro.resources.dll
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows - Normal Drag Drop\AnimeCategories\bin\Debug\net8.0-windows\BusinessLayer.dll
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows - Normal Drag Drop\AnimeCategories\bin\Debug\net8.0-windows\Classes.dll
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows - Normal Drag Drop\AnimeCategories\bin\Debug\net8.0-windows\DataLayer.dll
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows - Normal Drag Drop\AnimeCategories\bin\Debug\net8.0-windows\BusinessLayer.pdb
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows - Normal Drag Drop\AnimeCategories\bin\Debug\net8.0-windows\Classes.pdb
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows - Normal Drag Drop\AnimeCategories\bin\Debug\net8.0-windows\DataLayer.pdb
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows - Normal Drag Drop\AnimeCategories\obj\Debug\net8.0-windows\AnimeCategories.csproj.AssemblyReference.cache
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows - Normal Drag Drop\AnimeCategories\obj\Debug\net8.0-windows\BucketControl.g.cs
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows - Normal Drag Drop\AnimeCategories\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows - Normal Drag Drop\AnimeCategories\obj\Debug\net8.0-windows\App.g.cs
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows - Normal Drag Drop\AnimeCategories\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows - Normal Drag Drop\AnimeCategories\obj\Debug\net8.0-windows\AnimeCategories_MarkupCompile.cache
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows - Normal Drag Drop\AnimeCategories\obj\Debug\net8.0-windows\AnimeCategories_MarkupCompile.lref
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows - Normal Drag Drop\AnimeCategories\obj\Debug\net8.0-windows\App.baml
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows - Normal Drag Drop\AnimeCategories\obj\Debug\net8.0-windows\BucketControl.baml
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows - Normal Drag Drop\AnimeCategories\obj\Debug\net8.0-windows\MainWindow.baml
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows - Normal Drag Drop\AnimeCategories\obj\Debug\net8.0-windows\AnimeCategories.g.resources
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows - Normal Drag Drop\AnimeCategories\obj\Debug\net8.0-windows\AnimeCategories.GeneratedMSBuildEditorConfig.editorconfig
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows - Normal Drag Drop\AnimeCategories\obj\Debug\net8.0-windows\AnimeCategories.AssemblyInfoInputs.cache
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows - Normal Drag Drop\AnimeCategories\obj\Debug\net8.0-windows\AnimeCategories.AssemblyInfo.cs
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows - Normal Drag Drop\AnimeCategories\obj\Debug\net8.0-windows\AnimeCategories.csproj.CoreCompileInputs.cache
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows - Normal Drag Drop\AnimeCategories\obj\Debug\net8.0-windows\AnimeCat.D895F9ED.Up2Date
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows - Normal Drag Drop\AnimeCategories\obj\Debug\net8.0-windows\AnimeCategories.dll
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows - Normal Drag Drop\AnimeCategories\obj\Debug\net8.0-windows\refint\AnimeCategories.dll
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows - Normal Drag Drop\AnimeCategories\obj\Debug\net8.0-windows\AnimeCategories.pdb
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows - Normal Drag Drop\AnimeCategories\obj\Debug\net8.0-windows\AnimeCategories.genruntimeconfig.cache
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows - Normal Drag Drop\AnimeCategories\obj\Debug\net8.0-windows\ref\AnimeCategories.dll
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows - Normal Drag Drop\AnimeCategories\bin\Debug\net8.0-windows\AnimeCategories.dll.config
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows\AnimeCategories\bin\Debug\net8.0-windows\AnimeCategories.dll.config
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows\AnimeCategories\bin\Debug\net8.0-windows\AnimeDeserializer.deps.json
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows\AnimeCategories\bin\Debug\net8.0-windows\AnimeDeserializer.runtimeconfig.json
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows\AnimeCategories\bin\Debug\net8.0-windows\AnimeDeserializer.exe
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows\AnimeCategories\bin\Debug\net8.0-windows\AnimeDeserializer.dll
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows\AnimeCategories\bin\Debug\net8.0-windows\AnimeDeserializer.pdb
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows\AnimeCategories\bin\Debug\net8.0-windows\Data\data.json

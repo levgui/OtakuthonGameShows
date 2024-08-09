@@ -1,0 +1,33 @@
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows\BusinessLayer\bin\Debug\net8.0\BusinessLayer.deps.json
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows\BusinessLayer\bin\Debug\net8.0\BusinessLayer.dll
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows\BusinessLayer\bin\Debug\net8.0\BusinessLayer.pdb
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows\BusinessLayer\obj\Debug\net8.0\BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows\BusinessLayer\obj\Debug\net8.0\BusinessLayer.AssemblyInfoInputs.cache
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows\BusinessLayer\obj\Debug\net8.0\BusinessLayer.AssemblyInfo.cs
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows\BusinessLayer\obj\Debug\net8.0\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows\BusinessLayer\obj\Debug\net8.0\BusinessLayer.dll
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows\BusinessLayer\obj\Debug\net8.0\refint\BusinessLayer.dll
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows\BusinessLayer\obj\Debug\net8.0\BusinessLayer.pdb
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows\BusinessLayer\obj\Debug\net8.0\ref\BusinessLayer.dll
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows - Normal Drag Drop\BusinessLayer\bin\Debug\net8.0\BusinessLayer.deps.json
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows - Normal Drag Drop\BusinessLayer\bin\Debug\net8.0\BusinessLayer.dll
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows - Normal Drag Drop\BusinessLayer\bin\Debug\net8.0\BusinessLayer.pdb
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows - Normal Drag Drop\BusinessLayer\obj\Debug\net8.0\BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows - Normal Drag Drop\BusinessLayer\obj\Debug\net8.0\BusinessLayer.AssemblyInfoInputs.cache
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows - Normal Drag Drop\BusinessLayer\obj\Debug\net8.0\BusinessLayer.AssemblyInfo.cs
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows - Normal Drag Drop\BusinessLayer\obj\Debug\net8.0\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows - Normal Drag Drop\BusinessLayer\obj\Debug\net8.0\BusinessLayer.dll
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows - Normal Drag Drop\BusinessLayer\obj\Debug\net8.0\refint\BusinessLayer.dll
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows - Normal Drag Drop\BusinessLayer\obj\Debug\net8.0\BusinessLayer.pdb
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows - Normal Drag Drop\BusinessLayer\obj\Debug\net8.0\ref\BusinessLayer.dll
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows\BusinessLayer\bin\Debug\net8.0\Classes.dll
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows\BusinessLayer\bin\Debug\net8.0\DataLayer.dll
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows\BusinessLayer\bin\Debug\net8.0\Classes.pdb
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows\BusinessLayer\bin\Debug\net8.0\DataLayer.pdb
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows\BusinessLayer\obj\Debug\net8.0\BusinessLayer.csproj.AssemblyReference.cache
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows\BusinessLayer\obj\Debug\net8.0\Business.EA331CBA.Up2Date
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows\BusinessLayer\bin\Debug\net8.0\AnimeDeserializer.deps.json
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows\BusinessLayer\bin\Debug\net8.0\AnimeDeserializer.runtimeconfig.json
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows\BusinessLayer\bin\Debug\net8.0\AnimeDeserializer.exe
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows\BusinessLayer\bin\Debug\net8.0\AnimeDeserializer.dll
+C:\DONNÉES\Otakuthon\Game Shows\Otakuthon Game Shows\BusinessLayer\bin\Debug\net8.0\AnimeDeserializer.pdb
