@@ -15,15 +15,11 @@ The data set used is : https://www.kaggle.com/datasets/junaidk0012/anime-dataset
 The game will generate a number of anime and a number of categories and you need to classify each anime in the correct category by drag and dropping them.
 
 # Screenshots
-![](./screenshots/screenshot1.png)
-
-![](./screenshots/screenshot2.png)
-
-![](./screenshots/screenshot3.png)
-
-![](./screenshots/screenshot4.png)
-
-![](./screenshots/screenshot5.png)
+![](./screenshots/screenshot1.png)\\\
+![](./screenshots/screenshot2.png)\\\
+![](./screenshots/screenshot3.png)\\\
+![](./screenshots/screenshot4.png)\\\
+![](./screenshots/screenshot5.png)\\\
 
 # Configuration
 Each game can be configured in the app using the configuration fields at the bottom
