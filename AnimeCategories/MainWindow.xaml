@@ -6,8 +6,10 @@
         xmlns:local="clr-namespace:AnimeCategories"
         xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"
         mc:Ignorable="d"
-        SaveWindowPosition="True"
-        Title="Anime Categories - Otakuthon 2025" Height="1080" Width="1920">
+        Title="OTAKUTHON - Anime Categories Game Show"
+        d:DesignHeight="1080"   
+        d:DesignWidth="1920"
+        WindowState="Maximized">
     <mah:MetroWindow.Resources>
         <Style x:Key="MainControlStyle" TargetType="ItemsControl">
             <Setter Property="ItemsPanel">

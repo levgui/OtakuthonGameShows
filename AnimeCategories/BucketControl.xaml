@@ -17,7 +17,7 @@
             <Setter Property="ItemsPanel">
                 <Setter.Value>
                     <ItemsPanelTemplate>
-                        <UniformGrid VerticalAlignment="Bottom" HorizontalAlignment="Center" Columns="2"/>
+                        <WrapPanel VerticalAlignment="Top" HorizontalAlignment="Center"/>
                     </ItemsPanelTemplate>
                 </Setter.Value>
             </Setter>
