@@ -72,7 +72,7 @@ namespace AnimeCategories
             var vm = DataContext as MainWindowViewModel;
             if (vm != null)
             {
-                var message = $"This will generate a completely new game.{Environment.NewLine}Number of Anime: {vm.AnimeCount}{Environment.NewLine}Number of Categories: {vm.TagCount}{Environment.NewLine}Top Anime: {vm.TopAnimeCount}";
+                var message = $"This will generate a completely new game.{Environment.NewLine}Number of Anime: {vm.AnimeCount}{Environment.NewLine}Number of Categories: {vm.TagCount}{Environment.NewLine}Year (min): {vm.YearMin}{Environment.NewLine}Top Anime: {vm.TopAnimeCount}";
                 if (vm.HardMode)
                 {
                     message = $"This will generate a completely new game.{Environment.NewLine}Number of Anime: {vm.AnimeCount}{Environment.NewLine}Number of Categories: {vm.TagCount}";

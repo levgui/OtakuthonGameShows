@@ -9,22 +9,23 @@ namespace BusinessLayer
         private IEnumerable<Anime> allAnimes = new List<Anime>();
         private IEnumerable<Anime> filteredAnimes = new List<Anime>();
         private bool previousDifficulty = false;
-        public AnimeCategoriesManager(bool isHardMode, int topAnimeCount)
+        public AnimeCategoriesManager(bool isHardMode)
         {
-            allAnimes = AnimeCategoriesDataLayer.GetAllAnimes(isHardMode, topAnimeCount);
+            allAnimes = AnimeCategoriesDataLayer.GetAllAnimes(isHardMode);
         }
 
-        public void ReloadAnime(bool isHardMode, int topAnimeCount)
+        public void ReloadAnime(bool isHardMode, int topAnimeCount, int yearMin)
         {
             if (isHardMode != previousDifficulty)
             {
                 previousDifficulty = isHardMode;
 
-                allAnimes = AnimeCategoriesDataLayer.GetAllAnimes(isHardMode, topAnimeCount);
+                allAnimes = AnimeCategoriesDataLayer.GetAllAnimes(isHardMode);
             }
 
             //Apply filters...
             filteredAnimes = allAnimes.Where(x => x.Type == "TV" || x.Type == "MOVIE");
+            filteredAnimes = filteredAnimes.Where(x => x.Year >= yearMin);
             filteredAnimes = filteredAnimes.OrderByDescending(x => x.Score).Take(topAnimeCount);
         }
 
@@ -51,16 +52,28 @@ namespace BusinessLayer
             var possibleAnime = filteredAnimes.Where(x => tags.Intersect(x.Categories).Any()).ToList();
             var selectedAnimes = new List<Anime>();
 
-            do
+            if (possibleAnime.Count < animeCount)
             {
-                Random rnd = new Random();
-                var animeToAdd = possibleAnime[rnd.Next(possibleAnime.Count)];
-                if (!selectedAnimes.Any(x => x.Title.Equals(animeToAdd.Title)))
-                {
-                    selectedAnimes.Add(animeToAdd);
-                }
+                throw new Exception("This configuration seems impossible to generate. Please revise the configuration.");
+            }
+            else if (possibleAnime.Count == animeCount)
+            {
+                selectedAnimes.AddRange(possibleAnime);
+            }
+            else
+            {
 
-            } while (selectedAnimes.Count < animeCount);
+                do
+                {
+                    Random rnd = new Random();
+                    var animeToAdd = possibleAnime[rnd.Next(possibleAnime.Count)];
+                    if (!selectedAnimes.Any(x => x.Title.Equals(animeToAdd.Title)))
+                    {
+                        selectedAnimes.Add(animeToAdd);
+                    }
+
+                } while (selectedAnimes.Count < animeCount);
+            }
 
             //Make sure each tag has at least one anime if possible
             if (animeCount >= tagCount)
@@ -120,16 +133,21 @@ namespace BusinessLayer
             //There needs to be enough different anime to match the tags
             var possibleAnime = filteredAnimes.Where(x => tags.Any(x.Categories.Contains));
 
-            //Don't keep tags that have no anime
-            var hasDeadTags = tags.Any(x => !filteredAnimes.Any(y => y.Categories.Contains(x)));
-
-            if (hasDeadTags)
+            var hasDeadTags = false;
+            if (animeCount >= tags.Count)
             {
-                foreach (var tag in tags)
+                //Don't keep tags that have no anime
+                hasDeadTags = tags.Any(x => !filteredAnimes.Any(y => y.Categories.Contains(x)));
+
+                if (hasDeadTags)
                 {
-                    var count = filteredAnimes.Count(x => x.Categories.Contains(tag));
+                    foreach (var tag in tags)
+                    {
+                        var count = filteredAnimes.Count(x => x.Categories.Contains(tag));
+                    }
                 }
             }
+
 
             return possibleAnime.Count() >= animeCount && !hasDeadTags;
 

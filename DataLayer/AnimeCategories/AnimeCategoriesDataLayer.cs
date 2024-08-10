@@ -8,7 +8,7 @@ namespace DataLayer.AnimeCategories
 {
     public static class AnimeCategoriesDataLayer
     {
-        public static IEnumerable<Anime> GetAllAnimes(bool isHardMode, int topAnimeCount)
+        public static IEnumerable<Anime> GetAllAnimes(bool isHardMode)
         {
             IEnumerable<Anime> anime;
             if (isHardMode)

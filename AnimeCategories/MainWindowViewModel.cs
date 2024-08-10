@@ -22,8 +22,6 @@ namespace AnimeCategories
             set { SetValue(() => this.TagCount, value); }
         }
 
-        //Hard mode uses json file with >30k anime
-        //Normal mode uses CSV of top 1000 anime from MAL
         public bool HardMode
         {
             get { return GetValue(() => HardMode); }
@@ -36,6 +34,11 @@ namespace AnimeCategories
             set { SetValue(() => this.TopAnimeCount, value); }
         }
 
+        public int YearMin
+        {
+            get { return GetValue(() => YearMin); }
+            set { SetValue(() => this.YearMin, value); }
+        }
 
         private AnimeCategoriesManager manager;
 
@@ -44,10 +47,11 @@ namespace AnimeCategories
         public MainWindowViewModel()
         {
             HardMode = false;
-            manager = new AnimeCategoriesManager(HardMode, TopAnimeCount);
+            manager = new AnimeCategoriesManager(HardMode);
             AnimeCount = Convert.ToInt32(ConfigurationManager.AppSettings["ANIME_COUNT"]);
             TagCount = Convert.ToInt32(ConfigurationManager.AppSettings["TAG_COUNT"]);
             TopAnimeCount = Convert.ToInt32(ConfigurationManager.AppSettings["TOP_ANIME_COUNT"]);
+            YearMin = Convert.ToInt32(ConfigurationManager.AppSettings["YearMin"]);
         }
 
         public string CheckResults()
@@ -151,7 +155,7 @@ namespace AnimeCategories
 
         private void GenerateNewGame()
         {
-            manager.ReloadAnime(HardMode, TopAnimeCount);
+            manager.ReloadAnime(HardMode, TopAnimeCount, YearMin);
             var tags = manager.GetRandomTags(TagCount, AnimeCount);
             var animes = manager.GetRandomAnime(tags, TagCount, AnimeCount);
 
