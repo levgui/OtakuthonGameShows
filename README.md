@@ -43,5 +43,6 @@ Each game can be configured in the app using the configuration fields at the bot
 # General Rules built in the app
 * There is no limit to how many anime you can generate, however the app will display a message if the configuration is impossible to generate. Generally this means there are not enough anime to pull from with the current config or it wasn't able to find a combination of categories that would work for the amount of anime.
 * The game will try to make it so that each bucket can fit at least one anime, but it is not 100% guaranteed.
+* The app only shows anime that have the type "TV" or "Movie"
 * A single anime can fit in multiple different categories.
 
