@@ -23,22 +23,22 @@ The game will generate a number of anime and a number of categories and you need
 
 # Configuration
 Each game can be configured in the app using the configuration fields at the bottom
-* Number of Anime: This is the amount of different anime you will have to classify.
-* Number of Categories: This is the amout of different categories that will be available to classify the anime.
-* Year (min): This is the minimum year from which to pull the anime. Ex: "2020" will only select anime from the year 2020 and higher.
-* Take from top: The app will sort the anime by score and take only the top X highest rated anime. Ex: "100" will only take anime from the top 100 scores.
+* **Number of Anime:** This is the amount of different anime you will have to classify.
+* **Number of Categories:** This is the amout of different categories that will be available to classify the anime.
+* **Year (min):** This is the minimum year from which to pull the anime. Ex: "2020" will only select anime from the year 2020 and higher.
+* **Take from top:** The app will sort the anime by score and take only the top X highest rated anime. Ex: "100" will only take anime from the top 100 scores.
 * Example:
-    * Number of Anime: 8
-    * Number of Categories: 4
-    * Year (min): 2000
-    * Take from top: 1000
+    * **Number of Anime:** 8
+    * **Number of Categories:** 4
+    * **Year (min):** 2000
+    * **Take from top:** 1000
     * This configuration will pull 8 anime from the Top 1000 highest rated anime since the year 2000 and will offer 4 different categories to classify them in.
 
 # Features
-* CHECK: This button will tell you how many of the anime are in the right category.
-* HINT: This button will tell you which anime are in the wrong category.
-* RESET: This button will generate a completely new game with the configuration in the bottom center of the app.
-* SOLVE: This button will move all the anime in the correct category to show the solution.
+* **CHECK:** This button will tell you how many of the anime are in the right category.
+* **HINT:** This button will tell you which anime are in the wrong category.
+* **RESET:** This button will generate a completely new game with the configuration in the bottom center of the app.
+* **SOLVE:** This button will move all the anime in the correct category to show the solution.
 
 # General Rules built in the app
 * There is no limit to how many anime you can generate, however the app will display a message if the configuration is impossible to generate. Generally this means there are not enough anime to pull from with the current config or it wasn't able to find a combination of categories that would work for the amount of anime.
