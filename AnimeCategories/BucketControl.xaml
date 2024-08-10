@@ -24,7 +24,7 @@
             <Setter Property="ItemTemplate">
                 <Setter.Value>
                     <DataTemplate>
-                        <Grid MaxHeight="350" MaxWidth="200" Margin="0,0,0,10" ToolTip="{Binding DisplayTitle}" ToolTipService.InitialShowDelay="0" ToolTipService.BetweenShowDelay="0" Style="{StaticResource DragGrid}" Tag="{Binding Path=DataContext, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ItemsControl}}}">
+                        <Grid MaxHeight="350" MaxWidth="200" Margin="0,0,0,10" Cursor="Hand" ToolTip="{Binding DisplayTitle}" ToolTipService.InitialShowDelay="0" ToolTipService.BetweenShowDelay="0" Style="{StaticResource DragGrid}" Tag="{Binding Path=DataContext, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ItemsControl}}}">
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="50" />
                                 <RowDefinition Height="*" />
@@ -40,7 +40,9 @@
     
     <DockPanel Grid.Column="1" DataContext="{Binding}">
         <TextBlock DockPanel.Dock="Bottom" Text="{Binding Category}" TextWrapping="Wrap" TextAlignment="Center" Background="{DynamicResource MahApps.Brushes.Accent}" Foreground="{DynamicResource MahApps.Brushes.IdealForeground}" FontWeight="Bold" FontSize="40"/>
-        <ItemsControl Style="{StaticResource BucketStyle}" ItemsSource="{Binding AnimeInsideBucket}"/>
+        <ScrollViewer>
+            <ItemsControl Style="{StaticResource BucketStyle}" ItemsSource="{Binding AnimeInsideBucket}"/>
+        </ScrollViewer>
     </DockPanel>
     
 </UserControl>
