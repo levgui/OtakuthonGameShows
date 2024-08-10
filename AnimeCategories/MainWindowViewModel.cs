@@ -72,6 +72,7 @@ namespace AnimeCategories
         public string GetHints()
         {
             var hints = new StringBuilder();
+            var animeInWrongBucket = new List<Anime>();
 
             foreach (var bucket in Buckets)
             {
@@ -79,10 +80,19 @@ namespace AnimeCategories
                 {
                     if (string.IsNullOrWhiteSpace(bucket.Category) || !anime.Categories.Contains(bucket.Category))
                     {
-                        hints.AppendLine($"{anime.DisplayTitle}");
+                        animeInWrongBucket.Add(anime);
                     }
                 }
             }
+
+            //Order anime by number and generate hints
+            animeInWrongBucket = animeInWrongBucket.OrderBy(x => x.Number).ToList();
+            foreach (var anime in animeInWrongBucket)
+            {
+                hints.AppendLine($"{anime.DisplayTitle}");
+
+            }
+
 
             if (hints.Length == 0)
             {
