@@ -16,10 +16,10 @@ The game will generate a number of anime and a number of categories and you need
 
 # Screenshots
 ![](./screenshots/screenshot1.png)<br/><br/><br/>
-![](./screenshots/screenshot2.png)\ \ \
-![](./screenshots/screenshot3.png)\ \ \
-![](./screenshots/screenshot4.png)\ \ \
-![](./screenshots/screenshot5.png)\ \ \
+![](./screenshots/screenshot2.png)<br/><br/><br/>
+![](./screenshots/screenshot3.png)<br/><br/><br/>
+![](./screenshots/screenshot4.png)<br/><br/><br/>
+![](./screenshots/screenshot5.png)
 
 # Configuration
 Each game can be configured in the app using the configuration fields at the bottom
