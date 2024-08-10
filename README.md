@@ -1,8 +1,14 @@
 # OtakuthonGameShows
 
-This is a for fun project for Otakuthon
+This is a for fun project for Otakuthon.
 
-The data set used is : https://www.kaggle.com/datasets/junaidk0012/anime-dataset-2024
+I built this as a personal project and would love to help build more game shows for the next editions of Otakuthon.
+
+My goal would be to make more game ideas come to life and improve the experience of everyone involved; players, crowd and staff hosting the games.
+
+The data set currently used in the app is : https://www.kaggle.com/datasets/junaidk0012/anime-dataset-2024
+
+This data set contains over 25 000 anime from MyAnimeList as of August 2024. The data source used by the app can easily be updated or changed in the future.
 
 # Try it out
 1. Download "ANIME CATEGORIES GAME VX.zip" at the root of the project to try it out
